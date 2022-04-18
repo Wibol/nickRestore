@@ -2,7 +2,7 @@
 Restore your registered main nickname when it is still in use (GHOST) after a reconnection.
 
 ## Use
-- Download the file from the Hexchat addons directory:
+- Download the file to the Hexchat addons directory:
 
       wget https://raw.githubusercontent.com/Wibol/nickRestore/main/nickRestore.py -O ~/.config/hexchat/addons/nickRestore.py
 
