@@ -18,6 +18,6 @@ def restore_cb(word, word_eol, userdata):
     return hexchat.EAT_PLUGIN
 
 hexchat.hook_print('Nick Clash', restore_cb)
+hexchat.hook_command('restore', restore_cb, help='Restaura el nick original registrado.')
 
 hexchat.prnt(' * {} {} de {} cargado con éxito en Hexchat {}. {}'.format(__module_name__, __module_version__, __module_author__, __hexchat_version__, __module_description__))
-
