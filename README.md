@@ -1,5 +1,13 @@
 # nickRestore
-Hexchat addon that detects nickname changes due to network disconnection and restores the original registered nickname.
+Restore your registered main nickname when it is still in use (GHOST) after a reconnection.
 
 ## Use
-Download and save to "~/.config/hexchat/addons/nickRestore.py". Then restart Hexchat or run "/LOAD nickRestore.py":
+- Download the file from the Hexchat addons directory:
+
+      wget https://raw.githubusercontent.com/Wibol/nickRestore/main/nickRestore.py -O ~/.config/hexchat/addons/nickRestore.py
+
+- Add your registered nickname password for NickServ to the file:
+
+      nano ~/.config/hexchat/addons/nickRestore.py
+
+- Run "/LOAD nickRestore.py" to load it or restart Hexchat.
