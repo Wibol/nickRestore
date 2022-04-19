@@ -6,7 +6,7 @@ import hexchat
 
 __module_name__ = 'nickRestore'
 __module_version__ = '1.0'
-__module_description__ = 'Restaura tu nick principal registrado cuando an está en uso (GHOST) tras una reconexión.'
+__module_description__ = 'Restaura tu nick principal registrado cuando aún está en uso (GHOST) tras una reconexión.'
 __module_author__ = 'Wibol'
 __hexchat_version__ = hexchat.get_info('version')
 
