@@ -1,5 +1,5 @@
 # nickRestore
-Restore your registered main nickname when it is still in use (GHOST) after a reconnection.
+Hexchat addon that restore your registered main nickname when it is still in use (GHOST) after a reconnection.
 
 ## Use
 1. Download the file to the Hexchat addons directory:
