@@ -14,4 +14,4 @@ Hexchat addon that restore your registered main nickname when it is still in use
 
         nano ~/.config/hexchat/addons/nickRestore.py
 
-4. Run "/LOAD nickRestore.py" to load it or restart Hexchat.
+4. Run "/LOAD nickRestore.py" in Hexchat or restart it.
